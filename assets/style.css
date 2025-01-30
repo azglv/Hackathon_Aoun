@@ -1,0 +1,531 @@
+
+/*Header*/
+
+
+body{
+    width: 100%;
+    color: white;
+    background-color: rgba(131,178,215,1);
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+}
+.brand{
+    font-size: 50px;
+    color: white(95, 235, 95);
+}
+.gap{
+    font-size: 50px;
+}
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 1200px;
+}
+.WhatIsAoun{
+    margin: 0 20px; 
+}
+h3{
+    color: black
+}
+a:hover {
+    background-color: #000000;
+    color: white;
+}
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    background-color: rgba(171,230,232,1);
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    display: inline-block;
+
+}
+
+/*main*/
+
+.first{
+    height: 80vh;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 52%, rgba(131,178,215,1) 82%);
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+.contain {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Aoun_text, P{
+    color: black;
+}
+.text-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.Asool h1,p{
+    font-size: 40px;
+    font-weight: bold;
+}
+.image1{
+    margin-right: 200px;
+}
+h1{
+    font-size: 50px;
+}
+
+
+/* seccond section */
+.second{
+    max-width: 100%;
+}
+.intro h1{
+    margin-right: 20px;
+    text-align: center;
+}
+.introP{
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    color: white;
+    
+}
+
+.item {
+    margin: 5px;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item_properties {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.p-body {
+    margin: 15px;
+    text-align: center;
+}
+.p-item{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.h-item{
+    font-size: 30px;
+    color: white(108, 75, 199);
+    font-weight: bold;
+    color: black;
+    text-align: center; 
+}
+.p-body h4,p{
+    font-size: 20px;
+    text-align: center; 
+
+}
+.item_properties img {
+    width: 100%;
+}
+.p-image {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+/*line*/
+.middle-line {
+    width: 60%;
+    margin: 20px auto; 
+    border: none;
+    height: 2px;
+    background-color: #333;
+}
+
+/*M&V*/
+.MV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    padding: 20px;
+}
+
+.p-image {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.p-body {
+    flex: 1;
+}
+
+.h-item {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.p-item {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: right;
+}
+
+
+/*FAQ*/
+.faq-section {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.faq-question:hover {
+    color: #007BFF;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    color: #333;
+}
+
+input[type="checkbox"]:checked + .faq-question + .faq-answer {
+    max-height: 200px;
+    margin-top: 10px;
+}
+
+/* footer */
+.footer {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 52%, rgba(131,178,215,1) 82%);    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.rights {
+    text-align: right;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.social-links {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.social-links p {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.social-link {
+    color: blue;
+    font-size: 18px; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: blue;
+}
+
+
+/*iphone X, iphone 14 pro max, Galaxy S20+*/
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    a{
+        font-size: 10px;
+        padding: 3px 7px;
+        margin: 0 2px;
+    }
+    .contain {
+        flex-direction: column;
+        flex-direction: row;
+    }
+    .image1{
+        margin-right: 20px;
+    }
+    .text-section p{
+        font-size: 10px;
+    }
+    .image1 img{
+        height: 30vh;
+        width: 200px;
+    }
+    .header{
+        flex-direction: row;
+        padding: 4px;
+    }
+    .brand{
+        font-size: 15px;
+    }
+    .gap{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .WhatIsAoun{
+        margin: 3px;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    .header {
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .first{
+        height: 70vh;
+    }
+    /*main */
+    h1{
+        font-size: 40px;
+    }
+        .sec3flex{
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            height: 200px;
+        }
+        .sec3flex img {
+            width: 100%;
+            height: 100%;
+        }
+        .h-item{
+            font-size: 25px;
+            text-align: center;
+            margin: 0px;
+            margin-bottom: 10px;
+            margin-right: 9px;
+        }
+        .p-item{
+            font-size: 12px;
+            margin: 0px;
+        }
+        .card2-image {
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+        }
+        .section3{
+            width: 100%;
+        }
+
+/*M&V*/
+.h-item {
+    font-size: 20px;
+    margin-bottom: 7px;
+    text-align: right;
+}
+
+.p-item {
+    font-size: 10px;
+    text-align: right;
+}
+.p-image {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.footer-content {
+    font-size: 10px;
+    text-align: center;
+}
+
+.social-links a,p{
+    font-size: 14px;
+}
+
+}
+
+
+/*Ipad pro*/
+@media (min-width: 1000px) and (max-width: 1368px) {
+    .header{
+        width: 900px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .contain{
+        margin: 0px;
+        width: 100%;
+    }
+    .first{
+        height: 90vh;
+    }
+    .header{
+        justify-content: center;
+        width: 800px;
+    }
+    .brand{
+        font-size: 30px;
+    }
+    .gap{
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    .image1{
+        margin-right: 100px;
+    }
+}
+/*Ipad Air*/
+@media (min-width: 500px) and (max-width: 999px) {
+    .header{
+        width: 900;
+    }
+    .brand{
+        font-size: 40px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .contain{
+        margin: 0px;
+        width: 100%;
+    }
+    .first{
+        height: 90vh;
+    }
+    .header{
+        justify-content: center;
+        width: 500px;
+    }
+    .brand{
+        font-size: 15px;
+    }
+    .gap{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .image1{
+        margin-right: 100px;
+    }
+    .footer-content p{
+        font-size: 30px;
+    }
+    .rights{
+        font-size: 15px;
+    }
+}
+
+/*iphone 12 pro, iphone SE, Galaxy S8+*/
+@media (min-width: 100px) and (max-width: 400px) {
+    .first{
+        margin:0px;
+        align-items: center;
+    }
+    .second{
+        margin-top: 20px;
+    }
+    .Asool{
+        height: 10px;
+    }
+    .Aoun_text{
+        font-size: 30px;
+    }
+    .text-section p{
+        font-size: 10px;
+    }
+    .image1 img{
+        height: 40vh;
+        width: 200px;
+    }
+    .image1{
+        margin-right: 50px;
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .footer-content p{
+        font-size: 20px;
+    }
+    .rights{
+        font-size: 8px;
+        margin-right: 5px;
+    }
+    .social-links a,p{
+        font-size: 8px;
+    }
+}
