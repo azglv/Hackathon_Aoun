@@ -1,13 +1,11 @@
-
-/*Header*/
-
-
 body{
     width: 100%;
     color: white;
     background-color: rgba(131,178,215,1);
     margin: 0px;
 }
+/*Header*/
+
 header{
     display: flex;
     justify-content: center;
@@ -54,7 +52,7 @@ a {
 }
 
 /*main*/
-
+/*First section*/
 .first{
     height: 80vh;
     width: 100%;
@@ -171,6 +169,8 @@ h1{
 }
 
 /*M&V*/
+/*Third section*/
+
 .MV {
     display: flex;
     flex-direction: column;
@@ -216,6 +216,8 @@ h1{
 
 
 /*FAQ*/
+/*4th section*/
+
 .faq-section {
     width: 80%;
     max-width: 700px;
