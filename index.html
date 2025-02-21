@@ -2,6 +2,7 @@
 <html lang="ar" dir="rtl">
     <head>
 		<title>فريق عاون</title>
+        <script src="main.js"></script>
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,9 +99,62 @@
             </section>
             <hr class="middle-line">
             <section id="achievements">
-                <p style="font-weight: bold; font-size: 30px;">انجازات الفريق</p>
-                <p style="font-weight: bold; font-size: 30px; color: white;">سيتم اضافة هذا القسم قريبًا!</p>
-            </section>
+                <p style="font-weight: bold; font-size: 30px">إنجازات الفريق</p>
+              
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                  <!-- Full-width images with number and caption text -->
+                  <div class="mySlides fade">
+                    <img src="assets/num1.png" style="width: 50%" />
+                    <div class="text">برنامج الأسبوع التعريفي</div>
+                    <div class="text">برنامج موجه للطلبة المستجدين يهدف إلى:
+                        تعريفهم بالجامعة وأنظمتها الأكاديمية .
+                        مساعدتهم في تسجيل المواد واستلام البطاقة الجامعية.
+                        إرشادهم حول المرافق والخدمات الجامعية.</div>
+                  </div>
+              
+                  <div class="mySlides fade">
+                    <img src="assets/num2.png" style="width: 50%" />
+                    <div class="text">مبادرة محو الأمية الرقمية</div>
+                    <div class="text">تهدف إلى تمكين كبار السن من التعامل مع التكنولوجيا الحديثة، من خلال ورش عمل توعوية أقيمت في مركز الملك سلمان
+                        الاجتماعي، وشملت:
+                        كيفية استخدام التطبيقات الحكومية والخدمات الإلكترونية .
+                        التوعية بمخاطر الاحتيال الإلكتروني.
+                        تسهيل تواصلهم مع الأقارب عبر المنصات الرقمية .</div>
+                  </div>
+              
+                  <div class="mySlides fade">
+                    <img src="assets/num3.png" style="width: 50%" />
+                    <div class="text">حملة التبرع بالدم</div>
+                    <div class="text">مبادرة إنسانية بالتعاون مع مستشفى الملك خالد الجامعي لتعزيز ثقافة التبرع بالدم بين الطلبة، حيث:
+                        بلغ عدد المسجلين 590 متبرعًا.
+                        تبرع فعليًا 390 طالبًا، مع توفير إرشادات طبية لضمان سلامتهم.</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <img src="assets/num4.png" style="width: 50%" />
+                    <div class="text">دورة تخطيط بنائي لمسيرة إبداعية</div>
+                    <div class="text">ورشة تدريبية مخصصة لتطوير المهارات المهنية، تناولت:
+                        تحسين فرص التوظيف واستخدام LinkedIn .
+                        كتابة محتوى احترافي وبناء سيرة ذاتية متميزة .
+                        تنمية المهارات الشخصية لزيادة التنافسية في سوق العمل .</div>
+                  </div>
+              
+                  <!-- The dots -->
+                  <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+              
+                  <!-- Next and previous buttons below the dots -->
+                  <div class="button-container">
+                    <button class="prev" onclick="plusSlides(-1)">&#10094; </button>
+                    <button class="next" onclick="plusSlides(1)"> &#10095;</button>
+                  </div>
+                </div>
+              </section>
+              
             <hr class="middle-line">    
             <section class="FAQ" id="faq">
                 <p style="font-weight: bold; font-size: 30px;">الاسئلة الشائعة</p>
