@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
     <header style="padding: 10px 0; position: fixed; top: 0; width: 100%; z-index: 1000;">
           <nav>
@@ -30,6 +31,20 @@
             <h1 style="font-size: 3rem; color: #2c3e50; align-items: center; text-align: center;">هاكثون عاون</h1>
           </div>
         </div>
+      </div>
+      <div id="countdown-section" style="text-align: center; padding: 40px 20px;">
+        <div id="countdown" style="display: flex; justify-content: center; gap: 20px; font-family: 'Cairo', sans-serif; font-size: 2rem; font-weight: bold; color: #2c3e50;">
+          <div><span id="days">00</span><div style="font-size: 0.8rem;">يوم</div></div>
+          <div><span id="hours">00</span><div style="font-size: 0.8rem;">ساعة</div></div>
+          <div><span id="minutes">00</span><div style="font-size: 0.8rem;">دقيقة</div></div>
+          <div><span id="seconds">00</span><div style="font-size: 0.8rem;">ثانية</div></div>
+        </div>
+      
+        <p style="margin-top: 20px; font-size: 1.2rem; color: #e74c3c; font-weight: 700;">سارع بالتسجيل قبل انتهاء الوقت</p>
+      
+        <a href="https://forms.gle/pEoNmaLkLrGFFhcq6" target="_blank" style="display: inline-block; margin-top: 10px; padding: 12px 24px; background-color: #1471c1; color: white; text-decoration: none; border-radius: 10px; font-size: 1rem;">
+          التسجيل الآن
+        </a>
       </div>
       
     <section id="about-section" class="about-section">
@@ -97,44 +112,53 @@
         </div>
     </section>
     <section id="structure" class="event-structure">
-        <h2 style=" color: #333;">هيكل الحدث</h2>
+        <h2 style="color: #333;">هيكل الحدث</h2>
         <p>يمر هاكثون عاون بثلاث مراحل رئيسية :</p>
-    
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="icon"><i class="fas fa-clipboard-list"></i></div>
-                <div class="content">
-                    <h3>المرحلة الأولى: افتتاح التسجيل في الهاكثون</h3>
-                    <p>من يوم الجمعة 18 ابريل الى يوم الجمعة 25 ابريل مساءً</p>
-                    <p>فتح باب التسجيل وتكوين الفرق والمشاركة في التحديات المطروحة.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="content">
-                    <h3>المرحلة الثانية: ارسال رسائل القبول للمشاركين بالهاكثون</h3>
-                    <p>الاحد 27 ابريل</p>
-                    <p>إعلان الفرق المتأهلة الى المرحلة الحضورية.</p>
-                </div>
-                <div class="icon"><i class="fas fa-bullhorn"></i></div>
-
-            </div>
-            <div class="timeline-item">
-                <div class="icon"><i class="fas fa-users"></i></div>
-                <div class="content">
-                    <h3>المرحلة الثالثة: المشاركة بالهاكثون حضوريًا</h3>
-                    <p>يومي الثلاثاء والاربعاء 29-30 ابريل من 4 الى 8 مساءً</p>
-                    <p>حضور الفرق لورشة العمل التدريبية وتطوير افكارهم والاعلان عن الفائزين بعد التحكيم النهائي.</p>
-                </div>
-            </div>
+      
+        <!-- المرحلة الأولى -->
+        <div style="display: flex; justify-content: flex-end; align-items: center; background-color: #1471c1; color: white; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+          <div style="flex: 1; text-align: right;">
+            <h3 style="margin-top: 0;">المرحلة الأولى: افتتاح التسجيل في الهاكثون</h3>
+            <p>من يوم الجمعة 18 إبريل إلى يوم الجمعة 25 إبريل مساءً</p>
+            <p>فتح باب التسجيل وتكوين الفرق والمشاركة في التحديات المطروحة.</p>
+          </div>
+          <div style="width: 60px; height: 60px; background-color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 20px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" alt="calendar" style="width: 30px; height: 30px;">
+          </div>
         </div>
-    </section>
+      
+        <!-- المرحلة الثانية -->
+        <div style="display: flex; justify-content: flex-end; align-items: center; background-color: #1471c1; color: white; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+          <div style="flex: 1; text-align: right;">
+            <h3 style="margin-top: 0;">المرحلة الثانية: ارسال رسائل القبول للمشاركين بالهاكثون</h3>
+            <p>الأحد 27 إبريل</p>
+            <p>إعلان الفرق المتأهلة إلى المرحلة الحضورية.</p>
+          </div>
+          <div style="width: 60px; height: 60px; background-color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 20px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/724/724715.png" alt="announcement" style="width: 30px; height: 30px;">
+          </div>
+        </div>
+      
+        <!-- المرحلة الثالثة -->
+        <div style="display: flex; justify-content: flex-end; align-items: center; background-color: #1471c1; color: white; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+          <div style="flex: 1; text-align: right;">
+            <h3 style="margin-top: 0;">المرحلة الثالثة: المشاركة بالهاكثون حضوريًا</h3>
+            <p>يومي الثلاثاء والأربعاء 29-30 إبريل من 4 إلى 8 مساءً</p>
+            <p>حضور الفرق لورشة العمل التدريبية وتطوير أفكارهم والإعلان عن الفائزين بعد التحكيم النهائي.</p>
+          </div>
+          <div style="width: 60px; height: 60px; background-color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-left: 20px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" alt="group" style="width: 30px; height: 30px;">
+          </div>
+        </div>
+      </section>
+      
     
     <section id="rules">
         <h2>شروط المشاركة</h2>
         <div class="rules-box">
             <ul>
                 <li>أن يكون المشارك طالب من جامعة الملك سعود</li>
-                <li>كل فريق يجب ان يكون مكون من 2-5 طلاب.</li>
+                <li>كل فريق يجب ان يتكون من 2-5 طلاب.</li>
                 <li>المشاركة الحضورية في يومي التدريب واعلان الفائزين الموافق 29-30 ابريل من 4 الى 8 مساءً.</li>
                 <li>ان تكون الفكرة داخل نطاق السنة الاولى المشتركة.</li>
             </ul>
@@ -178,5 +202,31 @@
     <footer>
         <p>جميع الحقوق محفوظة &copy; فريق عاون 2025</p>
     </footer>
+    <script>
+        // اضبط تاريخ نهاية العد التنازلي هنا (سنة، شهر -1، يوم، ساعة، دقيقة)
+        const endDate = new Date("2025-04-25T23:59:59").getTime();
+      
+        const timer = setInterval(function () {
+          const now = new Date().getTime();
+          const distance = endDate - now;
+      
+          if (distance < 0) {
+            clearInterval(timer);
+            document.getElementById("countdown").innerHTML = "<span>انتهى الوقت</span>";
+            return;
+          }
+      
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+          document.getElementById("days").textContent = days.toString().padStart(2, '0');
+          document.getElementById("hours").textContent = hours.toString().padStart(2, '0');
+          document.getElementById("minutes").textContent = minutes.toString().padStart(2, '0');
+          document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
+        }, 1000);
+      </script>
+      
 </body>
 </html>
